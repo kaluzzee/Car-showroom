@@ -246,3 +246,53 @@ nav {
     font-size: 1.3rem;
     margin-bottom: 5px;
 }
+.price {
+    color: #e63946;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+.video-section {
+    background-color: #222;
+    color: white;
+    padding: 80px 0;
+    margin-bottom: 60px;
+}
+
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.video-card {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.video-player {
+    height: 200px;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-player i {
+    font-size: 4rem;
+    color: #e63946;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.video-player i:hover {
+    transform: scale(1.1);
+}
+
+.video-info {
+    padding: 20px;
+}
