@@ -454,4 +454,38 @@ footer {
         transition: left 0.3s ease;
         z-index: 1000;
     }
+      
+    .main-nav.active {
+        left: 0;
+    }
     
+    .main-nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .nav-container {
+        position: relative;
+    }
+    
+    .secondary-nav {
+        display: none;
+    }
+    
+    .hero {
+        padding: 70px 0;
+    }
+    
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+    
+    .car-card {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
