@@ -390,3 +390,68 @@ footer {
     text-decoration: none;
     transition: all 0.3s;
 }
+
+.social-icons a:hover {
+    background-color: #e63946;
+    transform: translateY(-3px);
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #333;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 992px) {
+    .hero h2 {
+        font-size: 2.8rem;
+    }
+    
+    .cars-grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .main-nav ul {
+        gap: 15px;
+    }
+    
+    .hero h2 {
+        font-size: 2.2rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .section-title h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    .main-nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        height: 100vh;
+        background-color: #222;
+        padding: 80px 20px 20px;
+        transition: left 0.3s ease;
+        z-index: 1000;
+    }
+    
